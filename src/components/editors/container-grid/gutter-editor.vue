@@ -31,7 +31,7 @@ const designerStore = useDesignerStore()
 const { selectedWidget } = storeToRefs(designerStore)
 const { deleteColOfGrid, addNewColOfGrid } = useDesigner()
 
-const props = defineProps({
+defineProps({
     optionModel: {
         type: Object,
         default: () => { }

@@ -18,7 +18,7 @@
 
 import GridColItem from './grid-col-item.vue'
 import containerItemWrapper from '@/components/common/container-item-wrapper.vue';
-const props = defineProps({
+defineProps({
     widget: {
         type: Object,
         default: () => { }

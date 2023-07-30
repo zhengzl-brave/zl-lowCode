@@ -13,7 +13,7 @@
 </template>
 
 <script setup lang='ts'>
-const props = defineProps({
+defineProps({
     optionModel: {
         type: Object,
         default: () => { }

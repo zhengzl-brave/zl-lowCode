@@ -23,7 +23,7 @@
 <script setup lang='ts'>
 import tableCellItem from './table-cell-item.vue';
 import containerItemWrapper from '@/components/common/container-item-wrapper.vue';
-const props = defineProps({
+defineProps({
     widget: {
         type: Object,
         default: () => { }

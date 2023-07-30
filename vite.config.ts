@@ -5,7 +5,10 @@ import { createVitePlugins } from './build/plugin'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: createVitePlugins(),
-  base: './',
+  base: '/zl-lowCode/',
+  build: {
+    outDir: 'docs'
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src")

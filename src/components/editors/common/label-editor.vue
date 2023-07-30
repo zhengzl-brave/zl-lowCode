@@ -9,7 +9,7 @@ import { useDesignerStore } from '@/store/modules/designer';
 import { storeToRefs } from 'pinia';
 import { computed } from 'vue';
 
-const props = defineProps({
+defineProps({
     optionModel: {
         type: Object,
         default: () => {}
