@@ -1,0 +1,20 @@
+/* 全局css变量 */
+$--color-primary: #409EFF;
+
+.form-widget-list {
+    .ghost{
+        content: '';
+        font-size: 0;
+        height: 3px;
+        box-sizing: border-box;
+        background: $--color-primary;
+        border: 2px solid $--color-primary;
+        outline-width: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+}
+
+.el-dropdown-link:focus {
+  outline: none;
+}
